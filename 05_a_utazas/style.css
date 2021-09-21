@@ -1,0 +1,42 @@
+body {
+    width: 80%;
+    background-image: url(vilagterkep.jpg);
+    color: #00008B;
+    margin: 20px auto 20px auto;
+    padding: 0 20px 0 20px;
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+#nagycim {
+    text-align: center;
+    font-size: 60pt;
+    font-weight: bold;
+}
+#cim {
+    text-align: center;
+    font-size: 36pt;
+}
+
+#rep {
+    margin: 0px auto 0px auto;
+    display: block;
+  
+}
+
+#kiskep {
+    float: left;
+    width: 230px;
+    margin: 0 20px 0 0;
+    
+}
+
+table {
+    background-color: #C4F4FD;
+    width: 600px;
+    margin: 0 220px;
+}
+
+#szelso {
+    text-align: right;
+}
