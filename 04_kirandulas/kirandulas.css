@@ -1,0 +1,63 @@
+body {
+    background-color: #DDFFDD;
+    color: #002200;
+    width: 70%;
+    margin: 20px auto;
+}
+
+p {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+#behuzas {
+    font-weight: normal;
+    margin: 20px 30px;
+}
+
+img {
+    float: right;
+    width: 120px;
+    
+}
+hr {
+    background-image: url(csillag.png);
+    height: 50px;
+    border: none;
+}
+
+#nagy {
+    width: 389px;
+    margin: 0px auto;
+    display: block;
+    float: none;
+}
+
+ul li{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+ul li ul li{
+    margin-top: 0;
+    font-weight: normal;
+    list-style-type: none;
+}
+
+ul li ul li:first-child{
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+
+}
+
+td {
+    background-image: url(csillag.png);
+    width: 100%;
+    height: 50px;
+}
