@@ -1,0 +1,33 @@
+ul {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #999;
+    font-weight: bold;
+    border: 1px solid #999;
+}
+ul li {
+    display: inline;
+    height: 70px;
+    list-style-type: none;
+    vertical-align: middle;
+    
+    
+}
+
+li {
+    padding: 15px;
+    
+    
+}
+
+li a {
+    text-decoration: none;
+    color: #999;
+    
+}
+li a:hover {
+    background-color:teal;
+    color: white;
+    padding: 16px;
+   }
+

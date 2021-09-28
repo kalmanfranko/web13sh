@@ -1,0 +1,35 @@
+img {
+    padding: 15px 15px 15px 15px;
+    background-color: #282A35;
+}
+ul {
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    
+    
+    overflow: hidden;
+   }
+
+
+   li {
+    float: left;
+    
+   }
+   li a {
+    display: block;
+    padding: 19px;
+    text-decoration: none;
+    background-color: #282A35;
+    color: #dddddd;
+    
+   }
+
+   li a:hover {
+    background-color: #04AA6D;
+    color: white;
+    padding: 19px;
+   }
+   
+

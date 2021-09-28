@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a {
+    padding: 3px;
+    text-decoration: none;
+    background-color: #f1f1f1;
+    color: black;
+    display: block;
+
+}
+
+li a:hover {
+    padding: 3px;
+    background-color: #04AA6D;
+    color: white;
+    text-transform: uppercase;
+    width: 144px;
+}

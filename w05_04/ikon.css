@@ -1,0 +1,15 @@
+img {
+    padding: 4px 2px 0px 2px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+li {
+    float: left;
+    display: inline;
+    background-color: #AFA99D;
+    
+    
+}

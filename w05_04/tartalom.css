@@ -1,0 +1,23 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #8EAAC0 solid 1px;
+    outline: lightgray solid 1px;
+    
+}
+li a {
+    color: #436CDB;
+    text-decoration: none;
+    padding: 3px;
+    display: block;
+}
+
+li a:hover {
+    color: lightgray;
+    background-color: #8EAAC0;
+}
