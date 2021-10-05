@@ -1,0 +1,58 @@
+body {
+    background-image: url("uzemanyag.jpg");
+    font-size: 20pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 450px;
+    width: 500px;
+    opacity: 0.8;
+}
+p {
+    text-align: center;
+}
+
+table {
+    margin: 50px 10px 50px -30px;
+    width: 100%;
+    
+}
+table tr td:first-child {
+    text-align: right;
+    padding: 5px 20px 5px 0;
+    width: 60%;
+
+}
+
+input[type=text] {
+    width: 180px;
+    height: 30px;
+    font-size: 20pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #633237;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+  }
+
+#ketto {
+    border: solid 1px;
+    border-color: gray;
+
+}  

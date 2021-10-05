@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h2>Azonosító adataid</h2>
+        <hr>
+        <form action="/action_page.php">
+        <table>
+            <tr>
+                <td><label for="email">e-mail címed:</label></td>
+                <td><input type="email" id="email" name="email" value=></td>
+            </tr>
+            <tr>
+                <td><label for="jelszo">leendő jelszavad:</label></td>
+                <td><input type="password" id="jelszo" name="jelszo" value=></td>
+            </tr>
+            <tr>
+                <td><label for="lname">jelszavad még egyszer:</label></td>
+                <td><input type="password" id="lname" name="lname" value=></td>
+            </tr>
+            <tr>
+                <td><label for="date">születési éved:</label></td>
+                <td><input type="text" id="date" name="date" value=></td>
+            </tr>
+            <tr>
+                <td><label for="zip">lakóhelyed irányítószáma:</label></td>
+                <td><input type="number" id="zip" name="zip" value=></td>
+            </tr>
+            <tr>
+                <td id="cucc"><label for="vegzettseg">iskolai végzettséged:</label></td>
+                <td>
+                    <input id="radio" type="radio" id="altalanos" name="vegzettseg" value="altalanos">
+                    <label for="altalanos">általános iskola</label><br>
+                    <input id="radio" type="radio" id="kozep" name="vegzettseg" value="kozep">
+                    <label for="kozep">középiskola</label><br>
+                    <input id="radio" type="radio" id="egyetem" name="vegzettseg" value="egyetem">
+                    <label for="egyetem">főiskola, egyetem</label></td>
+            </tr>
+        </table>
+        <table id="vonal">
+            <tr>
+                <td><label for="regiszt">A regisztrációs feltételeket elfogadom:</label></td>
+                <td><input type="checkbox" id="regiszt" name="regiszt" value=></td>
+            </tr>
+        </table>
+        
+        
+    </form>
+        <div class="utso">
+        <form action="/action_page.php">
+        
+            <input id="gomb" type="button" value="Regisztráció" onclick="">
+            <input id="gomb" type="reset" value="Mezők törlése" onclick="">
+        
+        </form>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
+
+
+
+
+
+
